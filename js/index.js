@@ -290,7 +290,8 @@ var APP = APP || {};
                         plotOptions: {
                             spline: {
                                 lineWidth: 1,
-                                enableMouseTracking: mouseTracking
+                                enableMouseTracking: mouseTracking,
+				connectNulls: true
                             },
                             series: {
                                 marker: {
